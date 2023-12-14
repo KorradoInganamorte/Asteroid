@@ -1,0 +1,25 @@
+@tailwind base
+@tailwind components
+@tailwind utilities
+
+@layer base
+    input
+        @apply flex items-center py-[.4rem] px-[2rem] rounded-[.5rem] border border-black text-3xl placeholder:text-gray-500 bg-transparent bg-no-repeat bg-[length:2.2rem_2.2rem] bg-[center_right_1rem] bg-[url('/images/Search.svg')]
+    
+@layer components
+    .decoration-div
+        @apply bg-white py-[.4rem] px-[2rem] rounded-[.5rem] border border-black text-base text-black hover:bg-black hover:text-white transition-colors
+    .decoration-div_small
+        @apply w-[27.8rem] bg-white pl-[.4rem] py-[.4rem] rounded-[0.25rem] text-2xl text-black hover:bg-gray-300 hover:text-white transition-colors
+    .decoration-div_small-active
+        @apply w-[27.8rem] pl-[.4rem] py-[.4rem] rounded-[0.25rem] text-2xl bg-gray-300 text-white transition-colors
+    .detail
+        @apply inline-block bg-white py-[1rem] px-[1rem] rounded-[1rem] border border-black
+    .detail_small
+        @apply inline-block bg-white py-[.5rem] px-[.5rem] rounded-[.5rem] border border-black
+    .shadow-detail
+        @apply inline-block bg-white py-[1rem] px-[1rem] rounded-[1rem] shadow-[4px_4px_4px_4px_rgba(0,0,0,0.35)] border border-black
+    .shadow-detail_small
+        @apply inline-block bg-white py-[1rem] px-[1rem] rounded-[.5rem] shadow-[4px_4px_4px_4px_rgba(0,0,0,0.35)] border border-black
+    .dropdown_btn
+        @apply py-[.4rem] px-[2rem] rounded-[.5rem] border border-black text-3xl text-black hover:translate-y-[-.5rem] transition-transform
