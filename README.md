@@ -14,6 +14,18 @@
 
 ```git clone https://github.com/KorradoInganamorte/Asteroid.git```
 
+2. Going to the Asteroid directory
+
+```cd Asteroid```
+
+3. Installing dependencies
+
+```npm install```
+
+4. Project Launch
+
+```npm start```
+
 <!--Пользовательская документация-->
 ## Documentation
 User documentation can be obtained from [this link](./docs/en/index.md).
