@@ -8,8 +8,6 @@ import Card from '@/components/Card'
 import Detail from '@/components/Detail'
 import Filter from '@/UI/Filter'
 
-// export const FilterContext = createContext<string>("largest");
-
 const Home = () => {
   const [dataAsteroid, setDataAsteroid] = useState<string>("2015-09-10")
   const { data, error, isLoading, isSuccess } = useGetAsteroidQuery({ start_date: dataAsteroid, end_date: dataAsteroid })
