@@ -1,5 +1,5 @@
 import "@/app/globals.sass"
-import { montserratMedium } from "@/app/layout"
+import { montserratMedium } from "@/public/fonts/font"
 import Dropdown from "@/UI/Dropdown"
 import { Close_Data, Diameter } from "@/types/Asteroid"
 

@@ -1,5 +1,4 @@
-import { montserratMedium } from "@/app/layout"
-// import { FilterContext } from "@/app/page";
+import { montserratMedium } from "@/public/fonts/font"
 import { useEffect, useState, useRef } from "react";
 
 const DropdwonFilter = () => {

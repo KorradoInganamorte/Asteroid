@@ -1,5 +1,5 @@
 import "@/app/globals.sass"
-import { montserratMedium } from "@/app/layout";
+import { montserratMedium } from "@/public/fonts/font";
 import { Diameter } from "@/types/Asteroid";
 import { useEffect, useRef, useState } from "react";
 

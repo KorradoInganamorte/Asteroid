@@ -1,5 +1,5 @@
 import "@/app/globals.sass"
-import { montserratMedium } from "@/app/layout"
+import { montserratMedium } from "@/public/fonts/font"
 import Link from "next/link"
 import { Dispatch, SetStateAction } from "react"
 

@@ -1,4 +1,4 @@
-import { montserratMedium } from "@/app/layout"
+import { montserratMedium } from "@/public/fonts/font"
 import Link from "next/link"
 
 const Header = () => {
