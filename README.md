@@ -33,7 +33,7 @@ User documentation can be obtained from [this link](./docs/en/index.md).
 <!--Поддержка-->
 ## Support
 If you have any difficulties or questions about using the package, create
-[обсуждение](https://github.com/KorradoInganamorte/Asteroid/issues/new/choose) in this repository or write to e-mail <petristomin1812@gmail.com>.
+[discussions](https://github.com/KorradoInganamorte/Asteroid/issues/new/choose) in this repository or write to e-mail <petristomin1812@gmail.com>.
 
 <!--зависимости-->
 ## Dependencies

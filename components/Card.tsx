@@ -48,7 +48,7 @@ const Card = ( { data, name, id, magnitude, hazardous, orbity, diameter, closeDa
         <div>
           <p className="text-3xl">Close Approach Data: <span className={`${montserratMedium.className}`}>{closeData.close_approach_date}</span></p>
           <p className="text-3xl mb-[2rem]">Miss Distance: <span className={`${montserratMedium.className}`}>{`${closeData.miss_distance.kilometers}km`}</span></p>
-          <Dropdown diameter={diameter}></Dropdown>
+          <Dropdown name="Estimated Diameter" diameter={diameter}></Dropdown>
         </div>
     </div>
   )

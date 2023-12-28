@@ -4,10 +4,11 @@ import { Diameter } from "@/types/Asteroid";
 import { useEffect, useRef, useState } from "react";
 
 type Props = {
+  name: string
   diameter: Diameter
 }
 
-const Dropdown = ({ diameter }: Props) => {
+const Dropdown = ({ name, diameter }: Props) => {
  const container = useRef<HTMLDivElement | null>(null);
  const [dropdownState, setDropdownState] = useState({ open: false });
 
@@ -27,7 +28,7 @@ const Dropdown = ({ diameter }: Props) => {
  return (
   <div className="relative">
   <div className="dropdown_btn group flex justify-between items-center" ref={container} onClick={handleDropdownClick}>
-    Dropdown
+    {name}
     <img className="w-[1.8rem] h-[1rem] ml-[1.5rem] group-hover:fill-white" src="/images/Arrow.svg" alt="arrow dropdown" />
   </div>
 

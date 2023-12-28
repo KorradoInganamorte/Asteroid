@@ -41,12 +41,6 @@ const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
 
     </div>
 
-    <div className="shadow-detail">
-      <div>
-        <p className="text-3xl">Filter:</p>
-      </div>
-    </div>
-
   </div>
   )
 }
