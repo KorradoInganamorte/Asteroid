@@ -13,6 +13,7 @@ const montserratGoogle = Montserrat({
 
 import Header from '@/components/Header'
 import { montserratRegular } from '@/public/fonts/font'
+import Footer from '@/components/Footer'
 
 export default function Layout({
   children,
@@ -25,6 +26,7 @@ export default function Layout({
         <body className={`${montserratRegular.className} ${montserratGoogle.variable}`}>
           <Header></Header>
           {children}
+          <Footer></Footer>
           </body>
       </Provider>
     </html>

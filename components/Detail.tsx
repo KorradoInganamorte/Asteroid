@@ -8,12 +8,14 @@ type Props = {
     isSuccess: boolean
     data: string
     setData: Dispatch<SetStateAction<string>>
+    setMeteorits: Dispatch<SetStateAction<number>>
 }
 
-const Detail = ({ element_count, isSuccess, data, setData }: Props) => {
+const Detail = ({ element_count, isSuccess, data, setData, setMeteorits }: Props) => {
 
 const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setData(e.target.value)
+    setMeteorits(5)
   }
 
   return (
