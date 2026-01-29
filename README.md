@@ -1,5 +1,5 @@
 # Asteroid
-Программное обеспечение для инженерных вычислений, научно-естественных наук, математики и алгоритмов <!-- описание репозитория -->
+Программное обеспечение для инженерных вычислений, научно-естественных наук, математики и алгоритмов  <!-- описание репозитория -->
 <!--Блок информации о репозитории в бейджах-->
 ![GitHub top language](https://img.shields.io/github/languages/top/KorradoInganamorte/Asteroid)
 ![GitHub](https://img.shields.io/github/license/KorradoInganamorte/Asteroid)
